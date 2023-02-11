@@ -80,7 +80,7 @@ def display_score():
     font = pygame.font.Font(None, 50)
     player_text = font.render("Player: " + str(player_score), 1, blue)
     opponent_text = font.render("Opponent: " + str(opponent_score), 1, red)
-    screen.blit(player_text, (screen_width - 160, 10))
+    screen.blit(player_text, ((screen_width/2) + 20, 10))
     screen.blit(opponent_text, (20, 10))
 while True:
     for event in pygame.event.get():
