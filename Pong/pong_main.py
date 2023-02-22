@@ -37,7 +37,6 @@ def ball_animation():
     
     ball.x += ball_speed_x
     ball.y += ball_speed_y
-    print(opponent_score)
     if ball.left <= 0:
         player_score += 1
         ball_start()
